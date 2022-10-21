@@ -1,0 +1,89 @@
+body {
+    background-image: url("/imgs/Donuts.png");
+    padding: 20px;
+}
+
+
+/* MENU CUSTOMIZATION */
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1, h2{
+    font-family: Arial;
+    color: gold;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+  }
+
+.established {
+    font-style: italic;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: rgb(1, 133, 209);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+/* MENU ITEM CUSTOMIZATION */
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.flavor, .sides {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 9%;
+}
+
+.flavor, .sides, .price {
+    font-size: 20px;
+}
+
+
+/* FOOTER CUSTOMIZATION */
+footer{
+    font-size: 25px;
+    font-family: Arial;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:active {
+    text-decoration: underline;
+    color: white;
+}
+
